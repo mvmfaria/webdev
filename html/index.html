@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula HTML</title>
+</head>
+<body>
+    <h1>Aula HTML</h1>
+    <p>Fundamentos de HTML</p>
+
+    <h2>Tags HTML</h2>
+    <p>O que são tags e para que servem?</p>
+
+    <h2>Significado semântico das tags</h2>
+    <p>Tags representam uma ideia, não um formato.</p>
+
+    <h2>Tags de texto</h2>
+    <p>alguns exemplos de tags para texto</p>
+
+    <h2>b, i, u, s</h2>
+    <p>Este é um texto que contém <b>negrito</b>.</p>
+    <p>Este texto contém <i>itálico</i></p>
+    <p>As tags para <b>negrito</b> e <i>itálico</i>, são tags <i>inline</i>. Tags HTML <s>podem ser</s> <u>são</u> <i>inline</i> e tags de <b>bloco</b>.</p>
+    
+    <div>A tag genérica de bloco é div, e a tag <span font style="font-weight: bold;">inline</span>genérica é span.</div>
+    <span style="display: block;">Mesmo tags genéricas <div style="display: inline;">podem</div>alterar seu comportamento.</span>
+
+    <h3>Outras tags de texto</h3>
+    <p>H<sub>2</sub>O</p>
+    <p>E = mC<sup>2</sup></p>
+
+    <h3>Listas ordenadas</h3>
+    <ol>
+        <li>item a</li>
+        <li>item b</li>
+        <ol>
+            <li>subitem 1</li>
+            <li>subitem 2</li>
+        </ol>
+        <li>item c</li>
+    </ol>
+
+    <h3>Listas não ordenadas</h3>
+    <ul>
+        <li>item a</li>
+        <li>item b</li>
+        <ul>
+            <li>subitem 1</li>
+            <li>subitem 2</li>
+        </ul>
+        <li>item c</li>
+    </ul>
+
+    <h3>Listas de definição</h3>
+    <dl>
+        <dt>termo</dt>
+        <dd>significado</dd>
+        <dt>manga</dt>
+        <dd>de camisa</dd>
+        <dd>fruta</dd>
+        <dt>estudante</dt>
+        <dt>aluno</dt>
+        <dd>que ainda está aprendendo</dd>
+    </dl>
+
+    <h2>Imagens</h2>
+    <img src="htmlcss.png" alt="HTML & CSS">
+    <img src="https://fboldt.github.io/images/neuralnetworks.png" alt="Redes Neurais">
+
+    <h2>Links</h2>
+    <p>Links podem ser dentro da própria página, dentro do próprio site e links externos.</p>
+
+    <h3>Links externos</h3>
+    <a href="https://fboldt.github.io/">Página do professor</a>
+
+    <h3>Dentro do site</h3>
+    <a href="about.html">Sobre</a>
+
+    <h3>Dentro da página</h3>
+    <a href="#">Topo</a>
+
+    <h2>Formulários</h2>
+    <p>Formulários são mais interessantes com sites dinâmicos.</p>
+
+    <h2>Método GET</h2>
+
+    <form action="http://google.com/search" method="get">
+        <input type="text" name="q" id="texto de busca">
+        <input type="submit" value="pesquisar">
+    </form>
+
+    <h2>Método POST</h2>
+    <form action="action.html" method="post">
+        <input type="text" name="test" id="texto qualquer">
+        <input type="submit" value="enviar">
+    </form>
+
+</body>
+</html>
