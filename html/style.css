@@ -1,0 +1,57 @@
+h1 {
+    color: blueviolet
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    animation: site 5s ease-in-out infinite;
+}
+
+@keyframes site {
+    
+    
+}
+
+/*Creating classes.*/
+.marrom-forte {
+    font-weight: bolder;
+    color: brown;
+}
+
+/*Creting links*/
+#doido {
+    color: chartreuse;
+}
+
+/*Creating subclasses*/
+a:hover {
+    color: aquamarine;
+}
+
+/*Neste caso nós mudamos tanto ul quanto ol*/
+ul, ol {
+    color: chocolate;
+}
+
+/*Já aqui é alterado os ol que estão dentro de outro ol*/
+ol ol {
+    color: brown;
+}
+
+ul ul {
+    color: orangered;
+}
+
+h1 + h1{
+    color: aquamarine;
+    font-size: medium;
+}
+
+[href^="https"]{
+    color: red;
+    font-size: xx-large;
+}
+
+ul > li{
+
+}
